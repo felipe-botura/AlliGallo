@@ -9,6 +9,7 @@ import {
   import { StatusBar } from 'expo-status-bar';
   import { Ionicons } from '@expo/vector-icons';
   import { styles } from './style';
+import ItemList from '../../components/ItemList';
 
 export default function Home() {
   return (
@@ -24,6 +25,11 @@ export default function Home() {
         </View>
 
         {/* Lista de Produto */}
+        <ItemList item={"narguet"}></ItemList>
+        <ItemList item={"mimosa"}></ItemList>
+        <ItemList item={"maiosene"}></ItemList>
+        <ItemList item={"frango empinado"}></ItemList>
+        <ItemList item={"barbegui"}></ItemList>
 
         <View style={styles.footer}>
           <View style={styles.inputContainer}>
