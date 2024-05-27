@@ -7,13 +7,13 @@ export default function Welcome() {
     <View style={styles.container}>
       <View style={styles.imageContainer}>
         <Image
-          source={require("../assets/galloDev.png")}
+          source={require("../assets/msn.jpg")}
           style={styles.image}
         />
       </View>
       <View style={styles.content}>
-      <Text style={styles.title}>Gallo Shopping List</Text>
-      <Text style={styles.text}>Monte sua lista de compras e não esqueça mais o que precisa comprar ao sair de sua casa!</Text>
+      <Text style={styles.title}>AlliGallo</Text>
+      <Text style={styles.text}>Monte sua lista de compras!</Text>
       <Link style={styles.button} href={"/home"}>
         <Text style={styles.buttonText}>Acessar</Text>
       </Link>
@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
   text:{
     color: 'grey',
     fontSize: 16,
+    textAlign: 'center'
   },
   button:{
     position: 'absolute',
